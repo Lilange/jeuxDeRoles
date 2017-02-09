@@ -1,0 +1,43 @@
+
+body {
+    visibility:hidden;
+}
+button {
+    position:relative;
+    border-radius: 0;
+    background-color: rgba(125,100,25,0.7);
+    width:300px;
+    height: 100px;
+    line-height: 75px;
+    vertical-align: middle;
+    font-size: 3em;
+}
+#selection {
+    border: 1px solid #5eb5e0;
+    margin: 1em;
+    width: 300px;
+    position: relative;
+    display:none;
+}
+
+#selection > input {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+#selection > input[type="text"] {
+    background-color: rgba(255,255,255,0.4);
+    margin-bottom: 10px;
+    border: 0px;
+    border-bottom: 2px solid rgba(0,0,0,0.7);
+}
+#selection > input[type="text"]:focus {
+    background-color: graytext;
+}
+#selection > input[type="submit"] {
+    background-color: rgba(255,255,255,0.4);
+    margin: 10px 0 5px 0;
+    border: 2px solid rgba(0,0,0,0.7);
+    
+}
+
